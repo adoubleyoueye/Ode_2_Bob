@@ -1,4 +1,4 @@
-# Ode2Bob
+# Ode2Bob [![Ruby](https://github.com/adoubleyoueye/Ode_2_Bob/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/adoubleyoueye/Ode_2_Bob/actions/workflows/ruby.yml)
 
 ## Installation
 
