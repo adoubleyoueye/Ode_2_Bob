@@ -1,23 +1,42 @@
-# Ode2Bob [![Ruby](https://github.com/adoubleyoueye/Ode_2_Bob/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/adoubleyoueye/Ode_2_Bob/actions/workflows/ruby.yml)
+<h1 align="center">Ode2Bob 🖌️ </h1>
 
-## Installation
+[![Ruby](https://github.com/adoubleyoueye/Ode_2_Bob/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/adoubleyoueye/Ode_2_Bob/actions/workflows/ruby.yml)
 
-## Usage
+### :dart: About ###
+[Ode2Bob](https://us-central1-peaceful-leaf.cloudfunctions.net/bob_says) is a free JSON API for Bob Ross [quotes](https://www.goodreads.com/author/quotes/102372.Bob_Ross)
 
-TODO: Write usage instructions here
+## :triangular_ruler: Technologies ##
 
-## Development
+- Ruby
+- [Functions Framework](https://googlecloudplatform.github.io/functions-framework-ruby/v1.0.0/file.overview.html)
+- GCP Cloud Functions
 
-<!--
-## Contributing
+## 🧰 Usage ##
+Retrieve a random quote in JSON format.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/adoubleyoueye/ode_2_bob. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
--->
-## License
+```GET: https://us-central1-peaceful-leaf.cloudfunctions.net/bob_says```
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-<!--
-## Code of Conduct
+Example response:
+```
+{
+  "id": 1,
+  "quote": "We don't make mistakes, just happy little accidents."
+}
+```
+**Get me a new one ... (press "r" to refresh)**
 
-Everyone interacting in the Ode2Bob project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/ode_2_bob/blob/master/CODE_OF_CONDUCT.md).
--->
+## :checkered_flag: Starting ##
+
+- Clone this [project](git@github.com:adoubleyoueye/Ode_2_Bob.git)
+- ...
+The server should initialise on localhost:8080
+
+## ✔️ Tests ##
+Using Rspec
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
+
+Made with :heart:
+
