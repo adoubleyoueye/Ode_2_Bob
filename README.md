@@ -31,12 +31,4 @@ Example response:
 - ...
 The server should initialise on localhost:8080
 
-## ✔️ Tests ##
-Using Rspec
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
-
-Made with :heart:
 
